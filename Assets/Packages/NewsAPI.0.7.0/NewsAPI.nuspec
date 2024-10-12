@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NewsAPI</id>
+    <version>0.7.0</version>
+    <authors>News API</authors>
+    <owners>News API</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/News-API-gh/News-API-csharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/News-API-gh/News-API-csharp</projectUrl>
+    <iconUrl>https://github.com/News-API-gh/News-API-csharp/raw/master/icon.png</iconUrl>
+    <description>Official C# client library for News API (newsapi.org). Search for live news articles from all over the web.</description>
+    <releaseNotes>Fixed domains parameter</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>News, API, newsapi</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="10.0.3" />
+    </dependencies>
+  </metadata>
+</package>
