@@ -108,8 +108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00011063, y: -271.13}
-  m_SizeDelta: {x: 922.94, y: 782.51}
+  m_AnchoredPosition: {x: -0.00011063, y: -320.495}
+  m_SizeDelta: {x: 922.94, y: 683.7802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6308826259765122096
 CanvasRenderer:
@@ -243,8 +243,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00016403198, y: 182}
-  m_SizeDelta: {x: 922.94, y: 176.5261}
+  m_AnchoredPosition: {x: 0.00016403198, y: 166.13269}
+  m_SizeDelta: {x: 922.94, y: 208.2607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8786118623105037000
 CanvasRenderer:
@@ -276,15 +276,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 25 best movie so sddfsfkdgdfkgjdf dsfjdsfjdfdsfsdfkdsjfkdfdffdfdf
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283103792
-  m_fontColor: {r: 0.18974723, g: 0.9811321, b: 0.2889224, a: 1}
+    rgba: 4294836025
+  m_fontColor: {r: 0.2216981, g: 1, b: 0.99169683, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -477,8 +477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000453, y: 0}
-  m_SizeDelta: {x: 922.94, y: 144.1173}
+  m_AnchoredPosition: {x: -0.000453, y: 26.405518}
+  m_SizeDelta: {x: 922.94, y: 117.7118}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4045260448117568543
 CanvasRenderer:
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 35.75
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 20.954529}
+  m_margin: {x: 0, y: 0, z: 0, w: -0.4546814}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

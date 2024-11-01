@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button homeBtn, searchBtn, profileBtn;
     [SerializeField] private Sprite home, search, profile;
     [SerializeField] private GameObject watchListAddedScreen;
+    [SerializeField] private GameObject textCopiedScreen;
     [SerializeField] private MovieInfo movieInfo;
     
     private Sprite homeDef, searchDef, profileDef;
@@ -115,5 +116,25 @@ public class UIManager : MonoBehaviour
         watchListAddedScreen.SetActive(true);
         yield return new WaitForSeconds(2);
         watchListAddedScreen.SetActive(false);
+    }
+    
+    public void OpenUrl(string uri)
+    {
+        Debug.Log("open url");
+        Application.OpenURL(uri);
+    }
+    
+    public void CopyToClipboard(string textToCopy )
+    {
+        GUIUtility.systemCopyBuffer = textToCopy;
+        Debug.Log("Text copied to clipboard: " + textToCopy);
+        //StartCoroutine(ShowCopiedText());
+    }
+
+    private IEnumerator ShowCopiedText()
+    {
+        textCopiedScreen.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        textCopiedScreen.SetActive(false);
     }
 }

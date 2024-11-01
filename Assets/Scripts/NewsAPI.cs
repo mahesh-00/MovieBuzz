@@ -10,7 +10,7 @@ public class NewsAPI : MonoBehaviour
 {
     [SerializeField] private NewsData newsDataPrefab;
     [SerializeField] private Transform contentParent;
-    [SerializeField] private SimpleScrollSnap snapScroll;
+    [SerializeField] private SnapScroll snapScroll;
     [SerializeField] private TMP_Dropdown dropdownCategory;
     [SerializeField] private int maxLength = 2500;
     
@@ -96,7 +96,7 @@ public class NewsAPI : MonoBehaviour
     private IEnumerator UpdateNewData()
     {
         //Debug.Log("curr item "+ snapScroll.currentItem);
-        if (snapScroll.SelectedPanel  == contentParent.childCount-3 && !isFeedUpdated)
+        if (snapScroll.currentItem  == contentParent.childCount-3 && !isFeedUpdated)
         {
             
             //StartFetchNextPage();
@@ -146,7 +146,7 @@ public class NewsAPI : MonoBehaviour
 
     private void OpenUrl()
     {
-        var uri = contentParent.GetChild(snapScroll.SelectedPanel).gameObject.GetComponent<NewsData>().url.text;
+        var uri = contentParent.GetChild(snapScroll.currentItem).gameObject.GetComponent<NewsData>().url.text;
         Application.OpenURL(uri);
     }
 
